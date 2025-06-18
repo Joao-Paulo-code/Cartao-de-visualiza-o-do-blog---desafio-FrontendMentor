@@ -1,0 +1,12 @@
+@media screen and (max-width: 503px) {
+    .cartao {
+        width: 85%; 
+        gap: 30px
+    }
+    .titulo2 {
+        font-size: 20px;
+    }
+    .conteudo {
+        font-size: 16px;
+    }
+}
