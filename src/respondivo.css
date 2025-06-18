@@ -1,0 +1,14 @@
+@media screen and (max-width: 900px) {
+    .cartao {
+        width: 70%;
+        height: 70%;
+        gap: 30px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .cartao {
+        width: 85%; 
+        gap: 30px
+    }
+}

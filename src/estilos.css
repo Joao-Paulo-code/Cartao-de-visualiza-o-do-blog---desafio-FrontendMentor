@@ -1,0 +1,68 @@
+.container {
+    height: 100vh;
+    width: 100vw;
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Figtree", sans-serif;
+}
+
+.cartao {
+    background-color: hsl(0, 0%, 100%);
+    height: 55vh;
+    width: 20vw;
+    border-radius: 18px;
+    border: 2px solid black;
+    box-shadow: 9px 9px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+.cartao img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.titulo {
+    background-color: hsl(47, 88%, 63%);
+    padding: 4px 12px;
+    width: 118px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.publicacao {
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.titulo2 {
+    font-size: 24px;
+}
+
+.conteudo {
+    color: hsl(0, 0%, 42%);
+    font-size: 18px;
+}
+
+.publicador {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.publicador img {
+    width: 40px;
+    height: 40px;
+}
+
+.publicador h4 {
+    font-size: 15px;
+    font-weight: 800;
+}
